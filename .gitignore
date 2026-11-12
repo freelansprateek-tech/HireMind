@@ -1,0 +1,36 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Secrets - never commit
+.env
+.env.local
+backend/.env
+
+# Generated data - regenerable, and uploads contain real personal data
+backend/data/uploads/
+backend/data/candidates.db
+backend/data/chroma/
+backend/data/cache/
+backend/data/chunks*.json
+backend/data/extractions*.json
+backend/data/parsed_jds.json
+
+# Scratch files
+backend/scratch.py
+backend/peek_vectors.py
+backend/check_parse.py
+backend/check_retrieval.py
+
+# Frontend
+frontend/node_modules/
+
+# Misc
+*.log
+.DS_Store
+*.mp4
+*.mov
+frontend/assests/
