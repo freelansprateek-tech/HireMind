@@ -5,7 +5,7 @@ import { IconAlert, IconFile } from './icons'
 /**
  * WHICH FILE IS THIS PERSON?
  *
- * Names are not identifiers. Two rows reading "Viyom Shukla" with nothing to
+ * Names are not identifiers. Two rows reading with nothing to
  * tell them apart make a shortlist unusable, so every place a candidate is
  * named also carries the file they came from.
  *
